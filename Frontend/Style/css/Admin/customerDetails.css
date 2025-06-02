@@ -1,0 +1,13 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 22 Apr 2025, 10:33:38 pm
+    Author     : LIM CUAN HEI
+*/
+
+#orderContainer{
+    height: 60vh;
+    overflow-y: auto;
+}

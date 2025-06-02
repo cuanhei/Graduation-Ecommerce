@@ -1,0 +1,40 @@
+#hero{
+    background-image: url('../../../Img/Hero/1.png');
+    background-image: url('../../../Img/Hero/2.png');
+    background-image: url('../../../Img/Hero/3.png');
+    background-image: url('../../../Img/Hero/4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px; /* Ensure it has height */
+    width: 100%; /* Adjust as needed */
+    animation: changeBg 13s infinite;
+}
+
+#heroDetailsContainer{
+    width:40%;
+    height:100%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.newProductImg{
+    height: 20vh;
+}
+
+@keyframes changeBg {
+    0%   { background-image: url('../../../Img/Hero/1.png'); }
+    20%  { background-image: url('../../../Img/Hero/1.png'); }
+    25%  { background-image: url('../../../Img/Hero/2.png'); }
+    45%  { background-image: url('../../../Img/Hero/2.png'); }
+    50%  { background-image: url('../../../Img/Hero/3.png'); }
+    70%  { background-image: url('../../../Img/Hero/3.png'); }
+    75%  { background-image: url('../../../Img/Hero/4.png'); }
+    95%  { background-image: url('../../../Img/Hero/4.png'); }
+    100% { background-image: url('../../../Img/Hero/1.png'); }
+}
+
+@media (max-width: 770px) {
+    #heroDetailsContainer{
+        width:70%;
+    }
+}

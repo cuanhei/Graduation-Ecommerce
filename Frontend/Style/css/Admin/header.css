@@ -1,0 +1,15 @@
+#logoImg{
+    height: 3.5vh;
+}
+
+header{
+    /*
+    background-color: #0075be;
+    background-color: #5c00be;
+    background-color: #162992;
+    */
+    position: fixed;
+    top: 0;
+    height: 5.5vh;
+    z-index: 5;
+}

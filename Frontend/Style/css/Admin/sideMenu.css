@@ -1,0 +1,39 @@
+#sideMenu{
+    width: 12%;
+    height: 94.5vh;
+    position: fixed;
+    z-index: 5;
+    top: 5.5vh;
+}
+
+#sideMenu > div {
+    height: 95%;
+}
+
+#sideMenu > div > a{
+    text-decoration: none;
+    height: 8%;
+}
+
+#sideMenu > div > a > img{
+    height: 50%;
+}
+
+#sideMenu > div > a:hover,
+.activeSideMenu{
+    background-color: #ededed;
+}
+
+@media (max-width: 1200px) {
+    #sideMenu > div > a > p{
+        display: none;
+    }
+    #sideMenu > div > a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        display: none;
+    }
+}
